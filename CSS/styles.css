@@ -57,6 +57,12 @@ body {
 .link.current {
   color: var(--web-and-btn);
 }
+.link.current:hover {
+  color: var(--web-and-btn);
+}
+.link.current:focus {
+  color: var(--web-and-btn);
+}
 
 /* contacts */
 .contact-link {
@@ -64,10 +70,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.link:hover {
+.contact-link:hover {
   color: var(--web-and-btn);
 }
-.link:focus {
+.contact-link:focus {
   color: var(--web-and-btn);
 }
 .link,
@@ -163,14 +169,17 @@ body {
 .button.current {
   color: var(--web-and-btn);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .button.current:hover {
-  background-color: var(--web-and-btn);
+  background-color: var(--ocean);
   color: var(--white);
 }
 
 .button.current:focus {
-  background-color: var(--web-and-btn);
+  background-color: var(--ocean);
   color: var(--white);
 }
 .button:hover {
@@ -188,6 +197,10 @@ body {
   border: 1px solid var(--cloud);
   border-radius: 4px;
   font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .list {
   text-decoration: none;
