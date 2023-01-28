@@ -14,9 +14,13 @@
 .logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background-color: var(--white);
+  font-size: 16px;
 }
 .logo-up {
   font-weight: 800;
@@ -81,7 +85,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-transform: uppercase;
   letter-spacing: 0.02em;
   color: var(--white);
 }
@@ -90,14 +93,34 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  border: transparent;
   font-family: inherit;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--web-and-btn);
 }
+.button-one:hover {
+  background-color: var(--web-and-btn);
+  color: var(--white);
+}
+
+.button-one:focus {
+  background-color: var(--web-and-btn);
+  color: var(--white);
+}
 /* =========================section-two */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -106,7 +129,6 @@ body {
   color: var(--h-title);
 }
 .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -140,6 +162,16 @@ body {
 
 .button.current {
   color: var(--web-and-btn);
+  font-family: inherit;
+}
+.button.current:hover {
+  background-color: var(--web-and-btn);
+  color: var(--white);
+}
+
+.button.current:focus {
+  background-color: var(--web-and-btn);
+  color: var(--white);
 }
 .button:hover {
   background-color: var(--ocean);
@@ -151,13 +183,12 @@ body {
   color: var(--white);
 }
 .button {
-  border: transparent;
   background-color: var(--milk-white);
   color: var(--web-and-btn);
   border: 1px solid var(--cloud);
   border-radius: 4px;
+  font-family: inherit;
 }
-
 .list {
   text-decoration: none;
   list-style-type: none;
