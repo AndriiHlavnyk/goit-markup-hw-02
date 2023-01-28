@@ -46,6 +46,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--h-title);
 }
 .link:hover {
@@ -105,12 +106,12 @@ body {
   background-color: var(--web-and-btn);
 }
 .button-one:hover {
-  background-color: var(--web-and-btn);
+  background-color: var(--ocean);
   color: var(--white);
 }
 
 .button-one:focus {
-  background-color: var(--web-and-btn);
+  background-color: var(--ocean);
   color: var(--white);
 }
 /* =========================section-two */
@@ -172,6 +173,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button.current:hover {
   background-color: var(--ocean);
@@ -182,6 +184,18 @@ body {
   background-color: var(--ocean);
   color: var(--white);
 }
+.button {
+  background-color: var(--milk-white);
+  color: var(--web-and-btn);
+  border: 1px solid var(--cloud);
+  border-radius: 4px;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
 .button:hover {
   background-color: var(--ocean);
   color: var(--white);
@@ -190,19 +204,8 @@ body {
 .button:focus {
   background-color: var(--ocean);
   color: var(--white);
-}
-.button {
-  background-color: var(--milk-white);
-  color: var(--web-and-btn);
-  border: 1px solid var(--cloud);
-  border-radius: 4px;
-  font-family: inherit;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.list {
-  text-decoration: none;
-  list-style-type: none;
+  .list {
+    text-decoration: none;
+    list-style-type: none;
+  }
 }
