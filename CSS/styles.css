@@ -209,3 +209,7 @@ body {
     list-style-type: none;
   }
 }
+.portfolio-img {
+  text-decoration: none;
+  list-style-type: none;
+}
